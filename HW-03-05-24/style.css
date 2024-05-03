@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: grey;
+    text-align: center;
+}
+
+#button3 {
+    background-color: rgb(34, 192, 171);
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    display: block;
+}

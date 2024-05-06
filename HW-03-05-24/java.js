@@ -1,4 +1,4 @@
-button1.onclick = function () {
+button1.onclick = () => {
     if (header.style.color == "red" ) {
         header.style.color = "";
     } else {
@@ -6,7 +6,7 @@ button1.onclick = function () {
     }
 }
 
-button2.onclick = function () {
+button2.onclick = () => {
     if (header.style.backgroundColor == "green" ) {
         header.style.backgroundColor = "";
     } else {

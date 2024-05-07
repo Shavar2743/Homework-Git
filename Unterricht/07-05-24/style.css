@@ -13,6 +13,7 @@ body {
     color: black;
     border-radius: 10px;
     gap: 0.5rem;
+    padding: 5px;
 }
 
 #anzeige {
@@ -33,4 +34,12 @@ body {
     text-align: inherit;
     background-color: white;
     color: black;
+  }
+
+  .functionsButton {
+    cursor: pointer;
+  }
+
+  .functionsButton:hover {
+    background-color: rgb(123, 152, 197);
   }

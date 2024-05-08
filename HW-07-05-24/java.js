@@ -1,6 +1,6 @@
 eingabefeld.addEventListener("input", function jein() {
     const jahr = this.value;
-    if (schaltjahr(jahr)) {
+    if ((jahr % 4 === 0 && jahr % 100 !== 0) || jahr % 400 === 0) {
         ausgabe.textContent = "JA";
         ausgabe.style.color = "green";
     } else {
@@ -8,11 +8,3 @@ eingabefeld.addEventListener("input", function jein() {
         ausgabe.style.color = "red";
     }
 });
-
-function schaltjahr(jahr) {
-    if ((jahr % 4 === 0 && jahr % 100 !== 0) || jahr % 400 === 0) {
-        return true;
-    } else {
-        return false;
-    }
-}

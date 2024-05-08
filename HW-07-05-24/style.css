@@ -4,6 +4,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    margin: 0px;
     background-image: url("images.jpeg");
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
@@ -15,12 +16,13 @@ body {
 #rechner {
     background-color: rgb(241, 250, 238);
     color: rgb(0, 0, 0);
-    border-radius: 5px;
+    border-radius: 20px;
     border: 2px solid rgb(136, 238, 95);
     padding: 5px;
     height: 100px;
     width: 300px;
     position: relative;
+    box-shadow: 3px 3px 1px green
 }
 
 #eingabefeld {
@@ -33,6 +35,7 @@ body {
     position: absolute;
     top: 45px;
     left: 100px;
+    cursor: pointer;
   }
 
   #schrift1 {
@@ -55,7 +58,6 @@ body {
 
   #ausgabe {
     background-color: rgb(235, 230, 230);
-    color: rgb(212, 135, 135);
     font-size: 18px;
     height: 25px;
     width: 50px;
